@@ -71,9 +71,52 @@ body{
   color:#e83e8c;
   border-radius: 0px 1000px 1000px 0px;
   }
-.ion-logo-instagram:before {
-    content: "\f23e"
+
+
+
+.sticky-social-right {
+  position: fixed;
+  top: 20%;
+  right: -1000px;
+  height: 50px;
+  padding: 20px;
+  font-weight: bold;
+  z-index: 3;
+  box-shadow: 5 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
 }
+.sticky-social-right:hover{
+  right:5px;
+}
+
+.sticky-social-1{
+  top: 15%;
+}
+
+.sticky-social-2{
+  top: 20%;
+}
+
+.sticky-social-3{
+  top: 25%;
+}
+
+  .sticky-social-right-toggle {
+    position: fixed;
+    top:0;
+    width: 1000px;
+    right: 1px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color:#fff;
+    z-index: 5;
+    padding-top: 8px;
+	border-radius: 0px 1000px 1000px 0px;
+    }
+
+
 
 nav{
  position: fixed;
